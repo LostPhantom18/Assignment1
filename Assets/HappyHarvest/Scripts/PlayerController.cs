@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.TextCore.Text;
 
 namespace HappyHarvest
 {
@@ -137,6 +138,17 @@ namespace HappyHarvest
 
         private void Update()
         {
+
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                Speed = 16;
+                Debug.Log("Shift key was pressed");
+            }
+            else
+            {
+                Speed = 6;
+            }
+
             m_IsOverUI = EventSystem.current.IsPointerOverGameObject();
             m_CurrentInteractiveTarget = null;
             m_HasTarget = false;

@@ -5,3 +5,9 @@ Project by: Jonah, Ari and Stephan
 Added Change Log and Read Me
 
 [ End ]
+
+[September 27th, 2024 at 12:45 pm by Ari Urrahman]
+
+Added shift to sprint
+
+[ End ]
